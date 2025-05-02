@@ -1,4 +1,4 @@
-[# fan_thermal_ctl  
+[# fan_thermal_ctl ]
 mmdvm温控  
 
 此文档介绍把温控功能加到原有树莓派系统里，不用重新刷镜像文件的方法：pi-star-4.19  
