@@ -1,0 +1,9 @@
+[Unit]
+Description=fan
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart=/usr/bin/python /boot/fan_thermal_ctl.py
+PrivateTmp=true
+[Install]
+WantedBy=multi-user.target
