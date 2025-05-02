@@ -3,13 +3,13 @@ mmdvm温控
 
 此文档介绍把温控功能加到原有树莓派系统里，不用重新刷镜像文件的方法：pi-star-4.19  
 1.克隆程序文件  
-方法一：  
+方法一（速度快）：  
 rpi-rw;   
 sudo git clone https://gitee.com/ytqkl/fan_thermal_ctl.git;    
 cd mmdvm-CNcontact    
 方法二：  
 rpi-rw;   
-sudo git clone https://gitee.com/ytqkl/fan_thermal_ctl.git;  
+sudo git clone https://github.com/ytsqkl/fan_thermal_ctl.git;  
 cd mmdvm-CNcontact    
 2. 移动文件到指定位置     
 sudo mv fan_thermal_ctl.py /boot/;  
