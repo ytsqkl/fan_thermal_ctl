@@ -1,4 +1,4 @@
-# fan_thermal_ctl
+[# fan_thermal_ctl
 mmdvm温控
 
 此文档介绍把温控功能加到原有树莓派系统里，不用重新刷镜像文件的方法：pi-star-4.19
@@ -56,3 +56,4 @@ sudo systemctl status fan
 9. 恭喜温控风扇功能已经安装上去了，重新开机就能启动温控风扇功能了
     
 10. 风扇的开启及关闭温度，是在fan_thermal_ct.py里面有定义的，您可以通过修改这个文件的对应值来调整到需要的温度。 注意开启温度要比关闭温度大。
+](https://github.com/ytsqkl/fan_thermal_ctl/edit/main/README.md)
