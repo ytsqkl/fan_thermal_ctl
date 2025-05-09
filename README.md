@@ -6,11 +6,11 @@ mmdvm温控
 方法一（速度快）：  
 rpi-rw;   
 sudo git clone https://gitee.com/ytqkl/fan_thermal_ctl.git;    
-cd mmdvm-CNcontact    
+cd fan_thermal_ctl    
 方法二：  
 rpi-rw;   
 sudo git clone https://github.com/ytsqkl/fan_thermal_ctl.git;  
-cd mmdvm-CNcontact    
+cd fan_thermal_ctl    
 2. 移动文件到指定位置     
 sudo mv fan_thermal_ctl.py /boot/;  
 sudo mv fan.service /etc/systemd/system/;  
